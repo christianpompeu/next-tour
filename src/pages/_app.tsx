@@ -1,4 +1,4 @@
-import { ChakraProvider, Container, Text } from "@chakra-ui/react";
+import { ChakraProvider, Text } from "@chakra-ui/react";
 
 import theme from "../theme";
 import { AppProps } from "next/app";
@@ -9,12 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
       <Component {...pageProps} />
-      <Container height="100vh">
-        <DarkModeSwitch />
-        <Footer>
-          <Text>Next ❤️ Chakra</Text>
-        </Footer>
-      </Container>
+      <DarkModeSwitch />
     </ChakraProvider>
   );
 }
