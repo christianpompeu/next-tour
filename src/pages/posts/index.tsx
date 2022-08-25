@@ -9,19 +9,14 @@ function Posts() {
     <Container>
       <Hero title="Lista de posts" />
       <Main>
-        <Link href="/posts/post1" passHref>
+        <Link href="/posts/carrinho" passHref>
           <a>
             <Heading>Post 1</Heading>
           </a>
         </Link>
-        <Link href="/posts/post2" passHref>
+        <Link href="/posts/dtmoney" passHref>
           <a>
             <Heading>Post 2</Heading>
-          </a>
-        </Link>
-        <Link href="/posts/post3" passHref>
-          <a>
-            <Heading>Post 3</Heading>
           </a>
         </Link>
       </Main>
